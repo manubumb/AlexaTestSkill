@@ -3,22 +3,27 @@
     "apis": {
       "custom": {
         "endpoint": {
-          "uri": "arn:aws:lambda:us-east-1:425102273736:function:e0310642-e1f7-443a-b997-7c8968b35d03:Release_0"
+          "uri": "arn:aws:lambda:us-east-1:425102273736:function:489689a9-7e40-4822-900f-2da4e5e20359:Release_0"
         },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ],
         "regions": {
-          "EU": {
-            "endpoint": {
-              "uri": "arn:aws:lambda:eu-west-1:425102273736:function:e0310642-e1f7-443a-b997-7c8968b35d03:Release_0"
-            }
-          },
           "NA": {
             "endpoint": {
-              "uri": "arn:aws:lambda:us-east-1:425102273736:function:e0310642-e1f7-443a-b997-7c8968b35d03:Release_0"
+              "uri": "arn:aws:lambda:us-east-1:425102273736:function:489689a9-7e40-4822-900f-2da4e5e20359:Release_0"
+            }
+          },
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:425102273736:function:489689a9-7e40-4822-900f-2da4e5e20359:Release_0"
             }
           },
           "FE": {
             "endpoint": {
-              "uri": "arn:aws:lambda:us-west-2:425102273736:function:e0310642-e1f7-443a-b997-7c8968b35d03:Release_0"
+              "uri": "arn:aws:lambda:us-west-2:425102273736:function:489689a9-7e40-4822-900f-2da4e5e20359:Release_0"
             }
           }
         }
@@ -38,7 +43,7 @@
             "help"
           ],
           "keywords": [],
-          "name": "my template",
+          "name": "Wired life hacks",
           "summary": "Sample Short Description"
         }
       },

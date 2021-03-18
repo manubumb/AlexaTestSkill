@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "my template",
+      "invocationName": "my test skill",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",
@@ -16,14 +16,13 @@
           "samples": []
         },
         {
-          "name": "HelloWorldIntent",
+          "name": "WiredLifeHacksIntent",
           "slots": [],
           "samples": [
-            "hello",
-            "how are you",
-            "say hi world",
-            "say hi",
-            "hi",
+            "what\u0027s today\u0027s life hack",
+            "tell me a life hack",
+            "give me a life hack",
+            "wired life hack",
             "say hello world",
             "say hello"
           ]
@@ -35,10 +34,74 @@
         {
           "name": "AMAZON.FallbackIntent",
           "samples": []
+        },
+        {
+          "name": "IncrementHackScoreIntent",
+          "slots": [],
+          "samples": [
+            "add to score"
+          ]
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "PlayPodcastIntent",
+          "slots": [],
+          "samples": [
+            "Play podcast",
+            "Play today\u0027s podcast",
+            "Play a podcast"
+          ]
+        },
+        {
+          "name": "BrodyIntent",
+          "slots": [],
+          "samples": [
+            "What do you think about brody",
+            "What do you think of brody"
+          ]
+        },
+        {
+          "name": "BeNiceIntent",
+          "slots": [],
+          "samples": [
+            "Alexa be nice",
+            "Be nice"
+          ]
+        },
+        {
+          "name": "BrodyReallyIntent",
+          "slots": [],
+          "samples": [
+            "what do you really think",
+            "what do you really think about him",
+            "What do you really think about brody"
+          ]
+        },
+        {
+          "name": "OhShitIntent",
+          "slots": [],
+          "samples": [
+            "oh shit"
+          ]
+        },
+        {
+          "name": "AnythingElseIntent",
+          "slots": [],
+          "samples": [
+            "anything else you\u0027d like to say",
+            "Anything else"
+          ]
         }
       ],
       "types": []
     }
   },
-  "version": "1"
+  "version": "14"
 }
